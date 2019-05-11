@@ -60,6 +60,7 @@ import { Redirect } from '@salte-auth/redirect';
 const auth = new SalteAuth({
   providers: [
     new Cognito({
+      responseType: 'token',
       url: 'https://salte-os.auth.us-east-1.amazoncognito.com',
       clientID: '5v4dilrda9p8cfo74gfvrc9hd4'
     })
