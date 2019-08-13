@@ -36,7 +36,7 @@
     "@babel/preset-env": "^7.4.4",
     "@babel/preset-typescript": "^7.3.3",
     "@salte-auth/redirect": "^1.0.0-rc.5",
-    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^1.9.0",
     "babel-plugin-istanbul": "^5.1.4",
     "chai": "^4.2.0",
