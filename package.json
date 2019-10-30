@@ -27,15 +27,16 @@
     "start": "nps"
   },
   "license": "MIT",
-  "dependencies": {
-    "@salte-auth/salte-auth": "^3.0.0-rc.8"
+  "peerDependencies": {
+    "@salte-auth/salte-auth": "^3.0.0-rc.9"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-transform-runtime": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-typescript": "^7.3.3",
-    "@salte-auth/redirect": "^1.0.0-rc.6",
+    "@salte-auth/salte-auth": "^3.0.0-rc.9",
+    "@salte-auth/redirect": "^1.0.0-rc.7",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
     "babel-plugin-istanbul": "^5.2.0",
@@ -62,7 +63,7 @@
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-copy-assets-to": "^1.0.0",
-    "rollup-plugin-glob-import": "^0.3.1",
+    "rollup-plugin-glob-import": "^0.4.4",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-serve": "^1.0.1",
     "rollup-plugin-terser": "^5.0.0",
