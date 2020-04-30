@@ -19,7 +19,7 @@
 
 <p align="center">
 	<strong>
-		<a href="https://salte-auth.github.io/salte-auth">Docs</a>
+		<a href="https://salte-auth.gitbook.io">Docs</a>
 		•
 		<a href="https://salte-auth-demo.glitch.me">Demo</a>
 	</strong>
