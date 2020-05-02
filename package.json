@@ -28,15 +28,15 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "@salte-auth/salte-auth": "^3.0.0-rc.13"
+    "@salte-auth/salte-auth": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/plugin-transform-runtime": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-typescript": "^7.9.0",
-    "@salte-auth/redirect": "^1.0.0-rc.7",
-    "@salte-auth/salte-auth": "^3.0.0-rc.13",
+    "@salte-auth/redirect": "^3.0.0",
+    "@salte-auth/salte-auth": "^3.0.0",
     "@typescript-eslint/eslint-plugin": "^2.30.0",
     "@typescript-eslint/parser": "^2.30.0",
     "babel-plugin-istanbul": "^6.0.0",
