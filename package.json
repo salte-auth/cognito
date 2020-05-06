@@ -25,7 +25,8 @@
     "url": "https://github.com/salte-auth/cognito.git"
   },
   "scripts": {
-    "start": "nps"
+    "start": "nps",
+    "prepublishOnly": "npm start build"
   },
   "license": "MIT",
   "peerDependencies": {
