@@ -1,6 +1,7 @@
 {
   "name": "@salte-auth/cognito",
   "version": "3.0.0",
+  "browser": "dist/cognito.min.js",
   "main": "dist/cognito.min.js",
   "module": "dist/cognito.min.mjs",
   "types": "dist/cognito.d.ts",
