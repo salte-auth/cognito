@@ -1,6 +1,6 @@
-import { OAuth2Provider } from '@salte-auth/salte-auth';
+import { OpenIDProvider } from '@salte-auth/salte-auth';
 
-export class Cognito extends OAuth2Provider {
+export class Cognito extends OpenIDProvider {
   public constructor(config: Cognito.Config) {
     super(config);
   }
@@ -10,7 +10,7 @@ export class Cognito extends OAuth2Provider {
   }
 
   public get login() {
-    return this.url(`${this.config.url}/oauth2/authorize`);
+    return `${this.config.url}/oauth2/authorize`;
   }
 
   public get logout() {
@@ -26,7 +26,7 @@ export interface Cognito {
 }
 
 export declare namespace Cognito {
-  export interface Config extends OAuth2Provider.Config {
+  export interface Config extends OpenIDProvider.Config {
     /**
      * The domain of your Cognito tenant.
      *
