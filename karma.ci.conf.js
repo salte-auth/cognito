@@ -22,7 +22,7 @@ module.exports = (config) => {
       output[`${browser}Prior`] = {
         base: 'SauceLabs',
         browserName: browser.toLowerCase(),
-        browserVersion: 'latest-1',
+        browserVersion: browser === 'Safari' ? 'latest-2' : 'latest-1',
         platformName: browser === 'Safari' ? 'Mac 10.15' : 'Windows 10'
       };
     }
