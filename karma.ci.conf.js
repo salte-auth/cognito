@@ -14,14 +14,16 @@ module.exports = (config) => {
     output[`${browser}Latest`] = {
       base: 'SauceLabs',
       browserName: browser.toLowerCase(),
-      version: browser === 'Safari' ? 'latest-1' : 'latest'
+      browserVersion: 'latest',
+      platformName: browser === 'Safari' ? 'Mac 10.15' : 'Windows 10'
     };
 
     if (browser !== 'Internet Explorer') {
       output[`${browser}Prior`] = {
         base: 'SauceLabs',
         browserName: browser.toLowerCase(),
-        version: browser === 'Safari' ? 'latest-2' : 'latest-1'
+        browserVersion: 'latest-1',
+        platformName: browser === 'Safari' ? 'Mac 10.15' : 'Windows 10'
       };
     }
 
