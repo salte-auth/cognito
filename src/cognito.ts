@@ -5,15 +5,15 @@ export class Cognito extends OpenIDProvider {
     super(config);
   }
 
-  public get name() {
+  public get name(): string {
     return 'cognito';
   }
 
-  public get login() {
+  public get login(): string {
     return `${this.config.url}/oauth2/authorize`;
   }
 
-  public get logout() {
+  public get logout(): string {
     return this.url(`${this.config.url}/logout`, {
       logout_uri: this.redirectUrl('logout'),
       client_id: this.config.clientID
