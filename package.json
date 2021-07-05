@@ -77,11 +77,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "remove-lockfiles"
-    }
-  },
   "browserslist": [
     "last 2 Chrome versions",
     "last 2 Firefox versions",
